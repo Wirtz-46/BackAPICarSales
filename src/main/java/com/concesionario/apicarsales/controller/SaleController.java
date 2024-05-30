@@ -16,8 +16,8 @@ import com.concesionario.apicarsales.model.Sale;
 import com.concesionario.apicarsales.service.SaleService;
 
 @RestController
-@RequestMapping("/sales")
-public class SaleController {
+@RequestMapping("/apicarsales/sales")
+public class SaleController extends ApiBaseController {
 
     @Autowired
     private SaleService saleService;

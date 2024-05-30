@@ -16,8 +16,8 @@ import com.concesionario.apicarsales.model.Client;
 import com.concesionario.apicarsales.service.ClientService;
 
 @RestController
-@RequestMapping("/clients")
-public class ClientController {
+@RequestMapping("/apicarsales/clients")
+public class ClientController extends ApiBaseController {
     @Autowired
     private ClientService clientService;
 

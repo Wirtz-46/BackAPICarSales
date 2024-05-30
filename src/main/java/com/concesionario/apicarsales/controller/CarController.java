@@ -17,8 +17,8 @@ import com.concesionario.apicarsales.model.Car;
 import com.concesionario.apicarsales.service.CarService;
 
 @RestController
-@RequestMapping("/cars")
-public class CarController {
+@RequestMapping("/apicarsales/cars")
+public class CarController extends ApiBaseController {
     
     @Autowired
     private CarService carService;
